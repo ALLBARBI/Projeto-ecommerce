@@ -49,11 +49,7 @@ main .informacoes {
    padding: 1.5rem 1.5rem;
 }
 
-main .informacoes span {
-   color: var(--cor-cinza-claro);
-
-}
-
+main .informacoes span,
 main .informacoes strong {
    color: var(--cor-cinza-claro);
    font-size: 0.9rem;
@@ -81,9 +77,10 @@ main .informacoes .adicionar-ao-carrinho:hover {
    background-color: var(--cor-primaria-rover);
 }
 
+/* === TABLET === */
 @media (min-width: 769px) {
-   main .produtos .produtos {
-      min-width: 368px;
+   main {
+      margin: 0 auto;
    }
 
    main .produtos ul {
@@ -93,9 +90,13 @@ main .informacoes .adicionar-ao-carrinho:hover {
    }
 }
 
+/* === DESKTOP === */
 @media (min-width: 1170px) {
    main section {
       max-width: 1170px;
-      margin: 0 auto;
+   }
+
+   .produto {
+      width: 368px;
    }
 }
