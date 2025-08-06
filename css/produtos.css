@@ -67,10 +67,11 @@ main .informacoes .adicionar-ao-carrinho {
    border: none;
    border-radius: 8px;
    color: var(--cor-neutra-clara);
+   font-size: 1rem;
    padding: 1rem;
    cursor: pointer;
    margin-top: 0.5rem;
-   transition: background-color 0.3s ease-in-out;
+   transition: background-color 0.3s;
 }
 
 main .informacoes .adicionar-ao-carrinho:hover {
@@ -94,6 +95,7 @@ main .informacoes .adicionar-ao-carrinho:hover {
 @media (min-width: 1170px) {
    main section {
       max-width: 1170px;
+      margin: 0 auto;
    }
 
    .produto {
